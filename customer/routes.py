@@ -1,5 +1,5 @@
 from flask import Blueprint,render_template, request, redirect, url_for, session,flash
-from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
+#from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 import bcrypt #pip install bcrypt https://pypi.org/project/bcrypt/
 from database import mysql
 from flask_mysqldb import MySQLdb
